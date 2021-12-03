@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "CHANGE_ME!!!! (P.S. the SECRET_KEY environment variable will be used, if set, instead)."
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -76,10 +76,18 @@ WSGI_APPLICATION = "gettingstarted.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+
+
+
 DATABASES = {
     "default": {
         "ENGINE" : "django.db.backends.sqlite3",
-        "NAME": os.path.join(BASE_DIR, "db.sqlite3")
+        "NAME": "dulcnl7etnha9",
+        'USER': 'bnuwovkmotnlmz',
+        'PASSWORD': '2942876b67796ac75c099972b4d65bd682992b8e7e5351c683951a197ac54f60',
+        'HOST': 'ec2-52-72-155-37.compute-1.amazonaws.com'z
+        'PORT': '5432',
+
     }
 }
 
