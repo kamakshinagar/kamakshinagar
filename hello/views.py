@@ -19,6 +19,8 @@ def index(request):
     times = int(os.environ.get('TIMES',3))
     return HttpResponse('Hello! ' * times)
 
+def rc(request):
+    return HttpResponse("I am working")
 
 def db(request):
 
@@ -26,5 +28,5 @@ def db(request):
     greeting.save()
 
     greetings = Greeting.objects.all()
-
+   
     return render(request, "db.html", {"greetings": greetings})
