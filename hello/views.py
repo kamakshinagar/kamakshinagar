@@ -21,8 +21,10 @@ def index(request):
 
 def rc(request):
     print("I am working here")
-    req = request.POST[req]
-    dyno = request.POST[dyno]
+    #req = request.POST[req]
+    #dyno = request.POST[dyno]
+    print(request.GET)
+    print(request.POST)
     return render(request, "rc.html")
 
 def db(request):
