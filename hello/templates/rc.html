@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  <div class="container">
+
+
+<h2>Request Concurrency</h2>
+<form action="rc.html" method="post">
+    <label for="req">Concurrent Requests:</label><br>
+    <input type="text" id="req" name="req" value=200><br>
+    <label for="dynos">Web dynos:</label><br>
+    <input type="text" id="dyno" name="dyno" value=1><br><br>
+    <input type="submit" value="Send Requests">
+  </form>
+
+
+
+
+</div>
+
+{% endblock %}

@@ -20,7 +20,10 @@ def index(request):
     return HttpResponse('Hello! ' * times)
 
 def rc(request):
-    return HttpResponse("I am working")
+    print("I am working here")
+    req = request.POST[req]
+    dyno = request.POST[dyno]
+    return render(request, "rc.html")
 
 def db(request):
 
