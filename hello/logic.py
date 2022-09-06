@@ -9,9 +9,8 @@ class Routers(object):
         self.value = value
 
 def main_function(req,dyno):
-    print(int(req) + int(dyno))
-    
-    available_routers=5
+    response = None
+    available_routers = 4
     my_routers = []
     for i in range(available_routers):
         my_routers.append(Routers(i,200*int(dyno)))
@@ -21,8 +20,8 @@ def main_function(req,dyno):
     selected = random.choice(my_routers)
     print("selected router is = ", selected.number)    
     if selected.value > int(req) :
-                print("200 OK")
+                response = "200 OK"
     else:
-                print("H11 Error")
-                
+                response = "H11 Error"
+    return response
 #main_function(700,4)

@@ -1,3 +1,4 @@
+from urllib import response
 from django.shortcuts import render
 from django.http import HttpResponse
 import requests
@@ -22,19 +23,15 @@ def index(request):
 
 def rc(request):
     print("I am working here")
+    context ={}
     req = request.POST.get('req',200)
     dyno = request.POST.get('dyno',1)
-    print(req)
-    print(dyno)
-    hello.logic.main_function(req,dyno)
-    #print(request.POST)
-    return render(request, "rc.html")
+    context['response'] = hello.logic.main_function(req,dyno)
+    return render(request,"rc.html",context)
 
 def db(request):
 
     greeting = Greeting()
     greeting.save()
-
     greetings = Greeting.objects.all()
-   
     return render(request, "db.html", {"greetings": greetings})
