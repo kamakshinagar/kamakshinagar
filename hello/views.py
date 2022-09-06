@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import requests
 import os
+import hello.logic
 
 from .models import Greeting
 
@@ -21,10 +22,12 @@ def index(request):
 
 def rc(request):
     print("I am working here")
-    #req = request.POST[req]
-    #dyno = request.POST[dyno]
-    print(request.GET)
-    print(request.POST)
+    req = request.POST.get('req',200)
+    dyno = request.POST.get('dyno',1)
+    print(req)
+    print(dyno)
+    hello.logic.main_function(req,dyno)
+    #print(request.POST)
     return render(request, "rc.html")
 
 def db(request):
