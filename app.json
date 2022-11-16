@@ -17,6 +17,27 @@
         "test-setup": "python manage.py collectstatic --noinput",
         "test": "python manage.py test"
       }
+      "review": {
+"addons": [
+{
+"plan": "heroku-postgresql:mini",
+"options": {
+"version": "13"
+}
+},
+"heroku-redis:mini"
+],
+"formation": {
+"worker": {
+"quantity": 1,
+"size": "hobby"
+},
+"web": {
+"quantity": 1,
+"size": "hobby"
+}
+}
+}
     }
   }
 }
