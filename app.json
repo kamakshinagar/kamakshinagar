@@ -25,7 +25,11 @@
 "version": "13"
 }
 },
-"heroku-redis:mini"
+  {
+"plan":"heroku-redis:mini",
+    "options": {
+        "version": "6.2.3"
+    }
 ],
 "formation": {
 "worker": {
