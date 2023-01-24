@@ -4,7 +4,7 @@
       "plan": "heroku-redis:mini",
       "as": "REDIS_SIDEKIQ",
       "options": {
-        "version": "6.2.3"
+        "version": "6.2"
       }
     }
     
