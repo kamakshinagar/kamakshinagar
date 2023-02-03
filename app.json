@@ -3,7 +3,6 @@
      {
       "plan": "heroku-postgresql:basic",
       "options": {
-        "version": "6.2",
         "extensions": "uuid-ossp,pg_stat_statements,plpgsql"
       }
     }
