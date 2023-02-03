@@ -1,21 +1,11 @@
-{
-  "addons": [
-     {
-      "plan": "heroku-redis:mini",
-      "as": "REDIS_SIDEKIQ",
-      "options": {
-        "version": "6.2.3"
-      }
-    }
-    
-  ],
-  "description": "Procurated environment",
-  "formation": {
-    "web": {
-      "quantity": 1
-    },
-    "worker": {
-      "quantity": 1
-    }
-  }
+{  
+    "addons" : [
+        {
+            "plan": "heroku-postgresql:hobby-dev",
+            "options": {
+                "extensions": "public.uuid-ossp,public.pgcrypto"
+            }
+        } 
+    ]
+
 }
