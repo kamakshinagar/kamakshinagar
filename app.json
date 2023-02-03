@@ -1,18 +1,18 @@
 {
-  "review": {
-"addons": [
-{
-"plan": "heroku-postgresql:basic",
-"options": {
-"version": "13",
-"extensions": "public.uuid-ossp,public.pg_stat_statements,public.plpgsql"
-}
-}
-],
-"formation": {
-"web": {
-"quantity": 1,
-"size": "hobby"
-}
-}
+  "addons": [
+     {
+      "plan": "heroku-postgresql:basic",
+      "options": {
+        "version": "6.2",
+        "extensions": "uuid-ossp,pg_stat_statements,plpgsql"
+      }
+    }
+    
+  ],
+  "description": "Procurated environment",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
 }
