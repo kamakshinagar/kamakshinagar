@@ -1,43 +1,18 @@
 {
-  "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
-  "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django" ],
-  "addons": [ "heroku-postgresql" ],
-  "env": {
-    "SECRET_KEY": {
-      "description": "The secret key for the Django application.",
-      "generator": "secret"
-    }
-  },
-  "environments": {
-    "test": {
-      "scripts": {
-        "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python manage.py test"
-      }
-      "review": {
+  "review": {
 "addons": [
 {
-"plan": "heroku-postgresql:mini",
+"plan": "heroku-postgresql:basic",
 "options": {
-"version": "13"
+"version": "13",
+"extensions": "public.uuid-ossp,public.pg_stat_statements,public.plpgsql"
 }
-},
-"heroku-redis:mini"
+}
 ],
 "formation": {
-"worker": {
-"quantity": 1,
-"size": "hobby"
-},
 "web": {
 "quantity": 1,
 "size": "hobby"
 }
 }
-}
-    }
-  }
 }
