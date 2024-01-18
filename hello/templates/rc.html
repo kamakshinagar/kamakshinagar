@@ -2,11 +2,9 @@
 {% load static %}
 
 {% block content %}
-  <div class="container">
-
-
-<h2>Request Concurrency</h2>
-<form action = "" method="post">
+<div class="container">
+ <h2><a href="https://devcenter.heroku.com/articles/http-routing#request-concurrency">Request Concurrency</a></h2>
+ <form action = "" method="post">
     {% csrf_token %}
     <label for="req">Concurrent Requests:</label><br>
     <input type="text" id="req" name="req" value=200><br>
@@ -17,9 +15,8 @@
   <br>
   <h3>Response = {{ response }}</h3>
 
-  <img src="{% static 'rc_lucid_chart.png'%}">
-
-
+  <h4><a href="https://lucid.app/lucidchart/211e8560-5b6b-4913-af7f-a9b9d2d450bc/edit?viewport_loc=-11%2C-95%2C1643%2C935%2C0_0&invitationId=inv_2a7f3bcc-2873-43c1-90b1-8cf71131300f#">Lucid Chart</a></h4>
+    
 </div>
 
 {% endblock %}
