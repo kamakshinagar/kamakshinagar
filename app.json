@@ -20,7 +20,7 @@
       "review": {
 "addons": [
 {
-"plan": "heroku-postgresql:mini",
+"plan": "heroku-postgresql:standard-0",
 "options": {
 "version": "13"
 }
