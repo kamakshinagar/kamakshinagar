@@ -178,4 +178,46 @@ knagar@heroku.com
 [34mWeb URL[39m:        https://knagar-onb-app.herokuapp.com/
 [?25h[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hssluq  s  ppython slu...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % python slug_size.py[1m [0m[K[0m [?2004l
 zsh: command not found: python
-[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit commm it -m "
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit commm it -m "slug size logic and bash for heroku commands"[?2004l
+On branch kamakshinagar-slug_size
+Your branch is up to date with 'origin/kamakshinagar-slug_size'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../.DS_Store[m
+	[31mmodified:   .DS_Store[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscript.sh[m
+	[31mslug_size.py[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit add .commit -m "slug size logic and bash for heroku commands"[?2004l
+[kamakshinagar-slug_size c3e57e1] slug size logic and bash for heroku commands
+ 4 files changed, 199 insertions(+)
+ create mode 100755 hello/script.sh
+ create mode 100644 hello/slug_size.py
+ create mode 100644 hello/typescript
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit push [?2004l
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.44 KiB | 3.44 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/kamakshinagar/kamakshinagar.git
+   30e2c0f..c3e57e1  kamakshinagar-slug_size -> kamakshinagar-slug_size
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit push heroku [7mkamakshinagar-slug_size[27m[23D[27mk[27ma[27mm[27ma[27mk[27ms[27mh[27mi[27mn[27ma[27mg[27ma[27mr[27m-[27ms[27ml[27mu[27mg[27m_[27ms[27mi[27mz[27me[?2004l
+fatal: 'heroku' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit push heroku kamakshinagar-slug_size[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25Do kamakshinagar-slug_size[24Dr kamakshinagar-slug_size[24Di kamakshinagar-slug_size[24Dg kamakshinagar-slug_size[24Di kamakshinagar-slug_size[24Dn kamakshinagar-slug_size[24D[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit push origin kamakshinagar-slug_size[30Dheroku[24C[30D                              [30Dcommit -m "slug size logic and bash for heroku commands"[56Dadd .                                                   [51Dcommit -m "slug size logic and bash for heroku commands"[60Dpython slug_size.py                                         [41D[19D./script.sh        [8D
