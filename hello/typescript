@@ -1,0 +1,181 @@
+Script started on Fri May 31 14:07:12 2024
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hsscript.sh[?2004l
+zsh: command not found: script.sh
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h../scr...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % ./script.sh[1m [0m[K[0m [?2004l
+zsh: permission denied: ./script.sh
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hcchmod +x ./sc...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % chmod +x ./script.sh[1m [0m[K[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x ./script.sh[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x ./script.sh[P[9C [10D[P[9C [10D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x script.sh[9D./script.sh[20D[9P[11C         [9D[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+CLI to interact with Heroku
+
+[1mVERSION[22m
+  heroku/9.0.0-alpha.2 darwin-x64 node-v16.20.2
+
+[1mUSAGE[22m
+  $ heroku [COMMAND]
+
+[1mTOPICS[22m
+  access                      manage user access to apps
+  addon-service-capabilities  list add-on service capabilities
+  addons                      tools and services for developing, extending, and operating your app
+  apps                        manage apps on Heroku
+  auth                        manage authentication for your Heroku account
+  authorizations              OAuth authorizations
+  blockedips                  list blocked ips
+  buildpacks                  scripts used to compile apps
+  certs                       SSL certificates
+  ci                          test runner for Heroku Pipelines
+  clients                     OAuth clients on the platform
+  config                      environment variables of apps
+  container                   deploy your Docker-based app to Heroku
+  data                        manage data
+  domains                     custom domains for apps
+  drains                      forward logs to syslog or HTTPS
+  dux                         DUX Administrative commands
+  enterprise                  (sudo) create an enterprise account
+  evergreen                   (sudo) create an evergreen enterprise account with teams & sso
+  features                    add/remove app features
+  git                         set git remote and clone Heroku repository
+  github                      Push a branch from the connected GitHub repo
+  kernels                     add a kernel
+  keys                        add/remove account ssh keys
+  labs                        add/remove experimental features
+  limits                      list limits for a resource
+  local                       run Heroku app locally
+  maintenance                 enable/disable access to app
+  manifest                    create the manifest for an app
+  members                     manage organization members
+  orgs                        manage organizations
+  permissions                 (sudo) create a sudo permissions
+  pg                          manage postgresql databases
+  pipelines                   manage pipelines
+  plugins                     List installed plugins.
+  ps                          Client tools for Heroku Exec
+  redis                       manage heroku redis instances
+  releases                    display the releases for an app
+  reviewapps                  manage reviewapps in pipelines
+  run                         run a one-off process inside a Heroku dyno
+  sessions                    OAuth sessions
+  slugs                       cut a new release on the app pointing to the slug
+  spaces                      list available spaces
+  teams                       manage teams
+  user                        get user information
+  webhooks                    list webhooks on an app
+
+[1mCOMMANDS[22m
+  2fa                         check 2fa status
+  access                      list who has access to an app
+  addon-service-capabilities  list add-on service capabilities
+  addons                      Lists your add-ons and attachments.
+  api                         make a manual API request
+  apps                        list your apps
+  asc                         list add-on service capabilities
+  authorizations              list OAuth authorizations
+  autocomplete                display autocomplete installation instructions
+  blockedips                  list blocked ips
+  buildpacks                  display the buildpacks for an app
+  builds                      list builds
+  certs                       list SSL certificates for an app
+  ci                          display the most recent CI runs for the given pipeline
+  clients                     list your OAuth clients
+  commands                    list all the commands
+  config                      display the config vars for an app
+  container                   Use containers to build and deploy Heroku apps
+  create                      creates a new app
+  destroy                     permanently destroy an app
+  domains                     list domains for an app
+  drains                      display the log drains of an app
+  enterprise                  list your enterprise accounts
+  features                    list available app features
+  help                        Display help for heroku.
+  info                        show detailed app information
+  join                        add yourself to a team app
+  kafka                       display cluster information
+  keys                        display your SSH keys
+  kill                        stop app dyno
+  labs                        list experimental features
+  leave                       remove yourself from a team app
+  limits                      list limits for a resource
+  list                        list your apps
+  local                       run heroku app locally
+  lock                        prevent team members from joining an app
+  login                       login with your Heroku credentials
+  logout                      clears local login credentials and invalidates API session
+  logs                        display recent log output
+  maintenance                 display the current maintenance status of app
+  members                     list members of a team
+  notifications               display notifications
+  open                        open the app in a web browser
+  orgs                        list the teams that you are a member of
+  papertrail                  Search and/or tail logs
+  pg                          show database information
+  pipelines                   list pipelines you have access to
+  plugins                     List installed plugins.
+  ps                          list dynos for an app
+  psql                        open a psql shell to the database
+  pt                          Search and/or tail logs
+  redis                       gets information about redis
+  regions                     list available regions for deployment
+  releases                    display the releases for an app
+  rename                      rename an app
+  resize                      manage dyno sizes
+  restart                     restart app dynos
+  rollback                    Roll back to a previous release.
+  run                         run a one-off process inside a heroku dyno
+  scale                       scale dyno quantity up or down
+  sessions                    list your OAuth sessions
+  slugs                       list recent slugs on application
+  spaces                      list available spaces
+  stack                       show the list of available stacks
+  status                      display current status of the Heroku platform
+  stop                        stop app dyno
+  sudo                        Prefix any CLI command with sudo to run it as a superuser.
+  teams                       list the teams that you are a member of
+  trusted-ips                 list trusted IP ranges for a space
+  twofactor                   check 2fa status
+  unlock                      unlock an app so any team member can join
+  update                      update the heroku CLI
+  user                        get user information
+  version
+  webhooks                    list webhooks on an app
+  which                       Show which plugin a command is in.
+  whoami                      display the current logged in user
+
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+knagar@heroku.com
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+knagar@heroku.com
+[2K[G[2m[2m[sudo][2m Two-factor code: [22mcccccbcdkfjhdtldnivefttetjudnnkhcgcbnjfhdehk[?25l[G[2m[2m[sudo][2m Two-factor code: [22m********************************************
+[?25h[2m=== [22m[1mknagar-onb-app[22m
+
+[34mAddons[39m:         heroku-postgresql:essential-1
+                heroku-postgresql:mini
+                papertrail:choklad
+[34mAuto Cert Mgmt[39m: true
+[34mDynos[39m:          web: 1
+[34mGit URL[39m:        https://git.heroku.com/knagar-onb-app.git
+[34mOwner[39m:          knagar@heroku.com
+[34mRegion[39m:         us
+[34mRepo Size[39m:      2 MB
+[34mSlug Size[39m:      108 MB
+[34mStack[39m:          heroku-22
+[34mWeb URL[39m:        https://knagar-onb-app.herokuapp.com/
+[?25h[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hssluq  s  ppython slu...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % python slug_size.py[1m [0m[K[0m [?2004l
+zsh: command not found: python
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit commm it -m "
