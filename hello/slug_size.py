@@ -1,5 +1,5 @@
 
- import subprocess
+import subprocess
 
 class Slug(object):
       def __init__(self, number, value):
