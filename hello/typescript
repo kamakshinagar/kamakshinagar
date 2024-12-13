@@ -1,0 +1,291 @@
+Script started on Fri May 31 14:07:12 2024
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hsscript.sh[?2004l
+zsh: command not found: script.sh
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h../scr...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % ./script.sh[1m [0m[K[0m [?2004l
+zsh: permission denied: ./script.sh
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hcchmod +x ./sc...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % chmod +x ./script.sh[1m [0m[K[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x ./script.sh[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x ./script.sh[P[9C [10D[P[9C [10D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hchmod +x script.sh[9D./script.sh[20D[9P[11C         [9D[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+
+ [31m›[39m   Error: Flag --app expects a value
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+CLI to interact with Heroku
+
+[1mVERSION[22m
+  heroku/9.0.0-alpha.2 darwin-x64 node-v16.20.2
+
+[1mUSAGE[22m
+  $ heroku [COMMAND]
+
+[1mTOPICS[22m
+  access                      manage user access to apps
+  addon-service-capabilities  list add-on service capabilities
+  addons                      tools and services for developing, extending, and operating your app
+  apps                        manage apps on Heroku
+  auth                        manage authentication for your Heroku account
+  authorizations              OAuth authorizations
+  blockedips                  list blocked ips
+  buildpacks                  scripts used to compile apps
+  certs                       SSL certificates
+  ci                          test runner for Heroku Pipelines
+  clients                     OAuth clients on the platform
+  config                      environment variables of apps
+  container                   deploy your Docker-based app to Heroku
+  data                        manage data
+  domains                     custom domains for apps
+  drains                      forward logs to syslog or HTTPS
+  dux                         DUX Administrative commands
+  enterprise                  (sudo) create an enterprise account
+  evergreen                   (sudo) create an evergreen enterprise account with teams & sso
+  features                    add/remove app features
+  git                         set git remote and clone Heroku repository
+  github                      Push a branch from the connected GitHub repo
+  kernels                     add a kernel
+  keys                        add/remove account ssh keys
+  labs                        add/remove experimental features
+  limits                      list limits for a resource
+  local                       run Heroku app locally
+  maintenance                 enable/disable access to app
+  manifest                    create the manifest for an app
+  members                     manage organization members
+  orgs                        manage organizations
+  permissions                 (sudo) create a sudo permissions
+  pg                          manage postgresql databases
+  pipelines                   manage pipelines
+  plugins                     List installed plugins.
+  ps                          Client tools for Heroku Exec
+  redis                       manage heroku redis instances
+  releases                    display the releases for an app
+  reviewapps                  manage reviewapps in pipelines
+  run                         run a one-off process inside a Heroku dyno
+  sessions                    OAuth sessions
+  slugs                       cut a new release on the app pointing to the slug
+  spaces                      list available spaces
+  teams                       manage teams
+  user                        get user information
+  webhooks                    list webhooks on an app
+
+[1mCOMMANDS[22m
+  2fa                         check 2fa status
+  access                      list who has access to an app
+  addon-service-capabilities  list add-on service capabilities
+  addons                      Lists your add-ons and attachments.
+  api                         make a manual API request
+  apps                        list your apps
+  asc                         list add-on service capabilities
+  authorizations              list OAuth authorizations
+  autocomplete                display autocomplete installation instructions
+  blockedips                  list blocked ips
+  buildpacks                  display the buildpacks for an app
+  builds                      list builds
+  certs                       list SSL certificates for an app
+  ci                          display the most recent CI runs for the given pipeline
+  clients                     list your OAuth clients
+  commands                    list all the commands
+  config                      display the config vars for an app
+  container                   Use containers to build and deploy Heroku apps
+  create                      creates a new app
+  destroy                     permanently destroy an app
+  domains                     list domains for an app
+  drains                      display the log drains of an app
+  enterprise                  list your enterprise accounts
+  features                    list available app features
+  help                        Display help for heroku.
+  info                        show detailed app information
+  join                        add yourself to a team app
+  kafka                       display cluster information
+  keys                        display your SSH keys
+  kill                        stop app dyno
+  labs                        list experimental features
+  leave                       remove yourself from a team app
+  limits                      list limits for a resource
+  list                        list your apps
+  local                       run heroku app locally
+  lock                        prevent team members from joining an app
+  login                       login with your Heroku credentials
+  logout                      clears local login credentials and invalidates API session
+  logs                        display recent log output
+  maintenance                 display the current maintenance status of app
+  members                     list members of a team
+  notifications               display notifications
+  open                        open the app in a web browser
+  orgs                        list the teams that you are a member of
+  papertrail                  Search and/or tail logs
+  pg                          show database information
+  pipelines                   list pipelines you have access to
+  plugins                     List installed plugins.
+  ps                          list dynos for an app
+  psql                        open a psql shell to the database
+  pt                          Search and/or tail logs
+  redis                       gets information about redis
+  regions                     list available regions for deployment
+  releases                    display the releases for an app
+  rename                      rename an app
+  resize                      manage dyno sizes
+  restart                     restart app dynos
+  rollback                    Roll back to a previous release.
+  run                         run a one-off process inside a heroku dyno
+  scale                       scale dyno quantity up or down
+  sessions                    list your OAuth sessions
+  slugs                       list recent slugs on application
+  spaces                      list available spaces
+  stack                       show the list of available stacks
+  status                      display current status of the Heroku platform
+  stop                        stop app dyno
+  sudo                        Prefix any CLI command with sudo to run it as a superuser.
+  teams                       list the teams that you are a member of
+  trusted-ips                 list trusted IP ranges for a space
+  twofactor                   check 2fa status
+  unlock                      unlock an app so any team member can join
+  update                      update the heroku CLI
+  user                        get user information
+  version
+  webhooks                    list webhooks on an app
+  which                       Show which plugin a command is in.
+  whoami                      display the current logged in user
+
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+knagar@heroku.com
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004h./script.sh[?2004l
+knagar@heroku.com
+[2K[G[2m[2m[sudo][2m Two-factor code: [22mcccccbcdkfjhdtldnivefttetjudnnkhcgcbnjfhdehk[?25l[G[2m[2m[sudo][2m Two-factor code: [22m********************************************
+[?25h[2m=== [22m[1mknagar-onb-app[22m
+
+[34mAddons[39m:         heroku-postgresql:essential-1
+                heroku-postgresql:mini
+                papertrail:choklad
+[34mAuto Cert Mgmt[39m: true
+[34mDynos[39m:          web: 1
+[34mGit URL[39m:        https://git.heroku.com/knagar-onb-app.git
+[34mOwner[39m:          knagar@heroku.com
+[34mRegion[39m:         us
+[34mRepo Size[39m:      2 MB
+[34mSlug Size[39m:      108 MB
+[34mStack[39m:          heroku-22
+[34mWeb URL[39m:        https://knagar-onb-app.herokuapp.com/
+[?25h[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hssluq  s  ppython slu...[0m[27m[24m[Jknagar@knagar-ltmh3ru hello % python slug_size.py[1m [0m[K[0m [?2004l
+zsh: command not found: python
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit commm it -m "slug size logic and bash for heroku commands"[?2004l
+On branch kamakshinagar-slug_size
+Your branch is up to date with 'origin/kamakshinagar-slug_size'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../.DS_Store[m
+	[31mmodified:   .DS_Store[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscript.sh[m
+	[31mslug_size.py[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit add .commit -m "slug size logic and bash for heroku commands"[?2004l
+[kamakshinagar-slug_size c3e57e1] slug size logic and bash for heroku commands
+ 4 files changed, 199 insertions(+)
+ create mode 100755 hello/script.sh
+ create mode 100644 hello/slug_size.py
+ create mode 100644 hello/typescript
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit push [?2004l
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.44 KiB | 3.44 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/kamakshinagar/kamakshinagar.git
+   30e2c0f..c3e57e1  kamakshinagar-slug_size -> kamakshinagar-slug_size
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hggit push heroku [7mkamakshinagar-slug_size[27m[23D[27mk[27ma[27mm[27ma[27mk[27ms[27mh[27mi[27mn[27ma[27mg[27ma[27mr[27m-[27ms[27ml[27mu[27mg[27m_[27ms[27mi[27mz[27me[?2004l
+fatal: 'heroku' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit push heroku kamakshinagar-slug_size[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25D[P[24C [25Do kamakshinagar-slug_size[24Dr kamakshinagar-slug_size[24Di kamakshinagar-slug_size[24Dg kamakshinagar-slug_size[24Di kamakshinagar-slug_size[24Dn kamakshinagar-slug_size[24D[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit push origin kamakshinagar-slug_size[30Dheroku[24C[30D                              [30Dcommit -m "slug size logic and bash for heroku commands"[56Dadd .                                                   [51Dcommit -m "slug size logic and bash for heroku commands"[60Dpython slug_size.py                                         [41D[19D./script.sh        [8D[11Dchmod +x script.sh[9D./script.sh[20D[9P[11C         [9D[11D[P[P[9C  [9Dgit statuscommitstatus[?2004l
+On branch kamakshinagar-slug_size
+Your branch is up to date with 'origin/kamakshinagar-slug_size'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../.DS_Store[m
+	[31mmodified:   typescript[m
+	[31mmodified:   views.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit statuspush origin kamakshinagar-slug_size[30Dheroku[24C[30D                              [30Dcommit -m "slug size logic and bash for heroku commands"[56Dadd .                                                   [51D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit add .statuspush origin kamakshinagar-slug_size[30Dheroku[24C[30D                              [30Dcommit -m "slug size logic and bash for heroku commands"" " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " v"i"e"w"[?2004l
+[kamakshinagar-slug_size 139dcba] view
+ 2 files changed, 45 insertions(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hgit commit -m "view"[16Dadd .           [11Dstatuspush origin kamakshinagar-slug_size[30Dheroku[24C[30Dorigin[24C                             [?2004l
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 1.56 KiB | 1.56 MiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/kamakshinagar/kamakshinagar.git
+   c3e57e1..139dcba  kamakshinagar-slug_size -> kamakshinagar-slug_size
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hhheroku local[?2004l
+[33m[WARN] ENOENT: no such file or directory, open 'Procfile'[0m
+[31m[FAIL] No Procfile and no package.json file found in Current Directory - See run --help[0m
+    TypeError: Cannot convert undefined or null to object
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru hello % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hlls[?2004l
+Procfile		check_ip_overlap.py	hello			requirements.txt
+Procfile.windows	dulcnl7etnha9		heroku.yml		runtime.txt
+README.md		get-pip.py		kamakshi		slug_size.html
+app.json		gettingstarted		manage.py
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hlscd ..heroku local[12Dgit push    [?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hgit push [9Dls      cd ..heroku local[?2004l
+[32m[OKAY] Loaded ENV .env File as KEY=VALUE Format[0m
+[35m2:28:50 PM web.1 | [0m /bin/sh: /usr/local/bin/gunicorn: /usr/local/opt/python@3.9/bin/python3.9: bad interpreter: No such file or directory
+[36m[DONE] Killing all processes with signal  SIGINT[0m
+[35m2:28:50 PM web.1[0m [31mExited with exit code null[0m
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hggit branch[?2004l
+[?1h=* [32mkamakshinagar-slug_size[m[m
+  main[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hgit branch[10Dheroku local[?2004l
+[32m[OKAY] Loaded ENV .env File as KEY=VALUE Format[0m
+[35m2:35:44 PM web.1 | [0m /bin/sh: /usr/local/bin/gunicorn: /usr/local/opt/python@3.9/bin/python3.9: bad interpreter: No such file or directory
+[36m[DONE] Killing all processes with signal  SIGINT[0m
+[35m2:35:44 PM web.1[0m [31mExited with exit code null[0m
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hheroku local [7m--port 5001[27m[11D[27m-[27m-[27mp[27mo[27mr[27mt[27m [27m5[27m0[27m0[27m1[?2004l
+[32m[OKAY] Loaded ENV .env File as KEY=VALUE Format[0m
+[35m2:36:06 PM web.1 | [0m /bin/sh: /usr/local/bin/gunicorn: /usr/local/opt/python@3.9/bin/python3.9: bad interpreter: No such file or directory
+[36m[DONE] Killing all processes with signal  SIGINT[0m
+[35m2:36:06 PM web.1[0m [31mExited with exit code null[0m
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004hheroku local --port 5001[11D           [12D[12Dgit branch  [10Dheroku local[12Dgit push    [9Dls      cd ..heroku local[12Dgit push    commit -m "view"[16Dadd .           [11Dstatus[?2004l
+On branch kamakshinagar-slug_size
+Your branch is up to date with 'origin/kamakshinagar-slug_size'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   hello/slug_size.py[m
+	[31mmodified:   hello/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                   [0m[27m[24m[Jknagar@knagar-ltmh3ru kamakshinagar % [K[?2004h

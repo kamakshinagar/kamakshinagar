@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+ <h2><a href="https://kb.heroku.com/8Q7ZYVK2/playbook-how-to-increase-an-app-s-slug-size-limit">Slug Size Increase</a></h2>
+ <form action = "" method="post">
+    {% csrf_token %}
+    <label for="app_name">App Name:</label><br>
+    <input type="text" id="app_name" name="app_name" value=app_name><br>
+    <label for="ss">Slug Size:</label><br>
+    <input type="text" id="ss" name="ss" value=1><br><br>
+    <input type="submit" value="Increase Size">
+  </form>
+  <br>
+  <h3>Response = {{ response }}</h3>
+
+</div>
+
+{% endblock %}

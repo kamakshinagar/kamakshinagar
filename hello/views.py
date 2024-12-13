@@ -4,6 +4,7 @@ from django.http import HttpResponse
 import requests
 import os
 import hello.logic
+import hello.slug_size
 
 from .models import Greeting
 
@@ -29,6 +30,14 @@ def rc(request):
     context['response'] = hello.logic.main_function(req,dyno)
     return render(request,"rc.html",context)
 
+def slug_size(request):
+    print("I am working here")
+    context ={}
+    app_name = request.POST.get('app_name',app-name)
+    size = request.POST.get('size',600)
+    context['response'] = hello.slug_size.main_function(app_name,size)
+    return render(request,"slug_size.html",context)
+    
 def db(request):
 
     greeting = Greeting()
